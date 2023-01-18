@@ -1,0 +1,133 @@
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+.flex_container_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 176px 0 31px;
+}
+
+.card {
+  box-shadow: 0px 10px 15px rgba(31, 100, 133, 0.1),
+    0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 352px;
+  height: 189px;
+  background: #1391ce;
+  text-align: center;
+}
+
+.card p {
+  padding: 0 46px;
+  font-family: "roboto-bold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.items_heading {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.items_heading p {
+  margin: 31px 0 8px;
+  width: 387px;
+  font-family: "inter-light", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1391ce;
+}
+
+.figure {
+  margin: 8px 0 50px;
+  width: 160px;
+  height: 8px;
+  background: #f7ba0e;
+}
+
+main {
+  background: #e5e5e5;
+}
+
+.row .img {
+  width: 560px;
+  height: 408px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  margin: 0 0 0 100px;
+}
+
+.row h4 {
+  margin: 64px 0 8px;
+  font-family: "inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #25468a;
+}
+
+.row h2 {
+  margin: 8px 0 16px;
+  font-family: "inter-bold", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  color: #1391ce;
+}
+
+.row p {
+  margin: 0 0 4px;
+  font-family: "inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+}
+
+.row h3 {
+  font-family: "inter-semi bold", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.3%;
+  color: #1391ce;
+}
+
+.left_2 {
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.left_3 img {
+  margin-top: 90px;
+}
+
+.right_3 {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.right_2 {
+  margin-top: 90px;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* 1440-160*2=1120 */
+  width: 1120px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: inter-bold;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: inter-light;
+  src: url(../fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
